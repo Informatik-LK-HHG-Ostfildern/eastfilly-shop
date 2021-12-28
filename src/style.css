@@ -1,0 +1,12 @@
+.menu{
+    background-color: #333333;
+    height: 100px;
+    width: auto;
+    margin: 0px;
+}
+
+#filter {
+    float: right;
+    margin-right: 5px;
+    margin-top: 5px;
+}

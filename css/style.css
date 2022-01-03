@@ -1,3 +1,11 @@
+/* General (Kenobi) */
+body{
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* Navigation bar */
 .nav-wrapper{
     display: flex;
    justify-content: space-between;
@@ -34,3 +42,13 @@
 .nav-link-wrapper a:hover{
     color: white;
 }
+
+.active-nav-link{
+    border-bottom: 1px solid white;
+}
+
+.active-nav-link a{
+    color: white !important;
+}
+
+/* Content */

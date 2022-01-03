@@ -1,12 +1,36 @@
-.menu{
-    background-color: #333333;
-    height: 100px;
-    width: auto;
-    margin: 0px;
+.nav-wrapper{
+    display: flex;
+   justify-content: space-between;
+   padding: 38px;
+   background-color: #333333;
 }
 
-#filter {
-    float: right;
-    margin-right: 5px;
-    margin-top: 5px;
+.left{
+    display: flex;
+}
+
+.nav-wrapper > .left > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: boder-bottom 0.5s;
+}
+
+.nav-link-wrapper a{
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover{
+    border-bottom: 1px solid white;
+}
+
+.nav-link-wrapper a:hover{
+    color: white;
 }

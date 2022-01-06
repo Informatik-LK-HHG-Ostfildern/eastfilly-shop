@@ -11,6 +11,7 @@ body{
    justify-content: space-between;
    padding: 38px;
    background-color: #333333;
+   height: 23px;
 }
 
 .left{
@@ -51,16 +52,19 @@ body{
     color: white !important;
 }
 
-/* Content */
+.nav-link-image-wrapper img{
+    width: 22px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -17px;
+    
+}
 
+
+/* Content */
 .text-wrapper{
     text-align: center;
     padding: 38px;
     font-size: 0.9em;
-}
-
-.video-wrapper video{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }

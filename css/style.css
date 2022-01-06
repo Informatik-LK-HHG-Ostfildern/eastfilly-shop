@@ -2,6 +2,11 @@
 body{
     margin: 0px;
     font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+p{
+    font-size: 1.25em;
 }
 
 
@@ -67,4 +72,9 @@ body{
     text-align: center;
     padding: 38px;
     font-size: 0.9em;
+}
+
+.image-wrapper{
+    align-self: center;
+    padding: 0px;
 }

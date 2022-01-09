@@ -6,7 +6,7 @@ body{
 }
 
 p{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: inherit;
     font-size: 1.25em;
 }
 
@@ -68,14 +68,60 @@ p{
 }
 
 
+/*Imprint bar*/
+.imprint-wrapper{
+    bottom: 0;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+    height: 23px;
+    width: 100%;
+    position: fixed;
+}
+
+.imprint-link-warpper{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: boder-bottom 0.5s;
+}
+
+.imprint-wrapper > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.imprint-link-wrapper a{
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.imprint-link-wrapper:hover{
+    border-bottom: 1px solid white;
+}
+
+.imprint-link-wrapper a:hover{
+    color: white;
+}
+
+
 /* Content */
 .text-wrapper{
     text-align: center;
     padding: 38px;
     font-size: 0.9em;
+    width: 50%;
+    margin: auto
 }
 
 .image-wrapper{
     align-self: center;
     padding: 0px;
+}
+
+.formular-wrapper{
+    width: 50%;
+    margin: auto;
 }

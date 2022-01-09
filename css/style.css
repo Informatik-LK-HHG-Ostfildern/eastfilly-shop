@@ -33,7 +33,7 @@ p{
 .nav-link-wrapper{
     height: 22px;
     border-bottom: 1px solid transparent;
-    transition: boder-bottom 0.5s;
+    transition: border-bottom 0.5s;
 }
 
 .nav-link-wrapper a{
@@ -70,20 +70,17 @@ p{
 
 /*Imprint bar*/
 .imprint-wrapper{
-    bottom: 0;
     background-color: #333333;
     display: flex;
     justify-content: space-between;
     padding: 38px;
     height: 23px;
-    width: 100%;
-    position: fixed;
 }
 
 .imprint-link-warpper{
     height: 22px;
     border-bottom: 1px solid transparent;
-    transition: boder-bottom 0.5s;
+    transition: border-bottom 0.5s;
 }
 
 .imprint-wrapper > div{
@@ -116,9 +113,18 @@ p{
     margin: auto
 }
 
-.image-wrapper{
+.image-wrapper img{
     align-self: center;
-    padding: 0px;
+    padding: 38px;
+    width: 30%;
+}
+
+.image-wrapper{
+    margin: auto;
+}
+
+.image-thin img{
+    margin: auto;
 }
 
 .formular-wrapper{

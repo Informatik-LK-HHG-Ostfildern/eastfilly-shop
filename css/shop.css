@@ -1,0 +1,12 @@
+.products{
+    display: flex;
+    justify-content: center;
+}
+.product{
+    
+}
+
+#product-image{
+  /*height:   px;*/
+    width: 500px;
+}

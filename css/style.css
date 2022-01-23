@@ -1,8 +1,18 @@
 /* General (Kenobi) */
+
 body{
     margin: 0px;
     font-family: 'Lato', sans-serif;
     text-align: center;
+    height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+html{
+    height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 p{
@@ -75,6 +85,11 @@ p{
     justify-content: space-between;
     padding: 38px;
     height: 23px;
+
+    position:absolute; 
+    bottom: 0;
+    width: 100%;
+    height: 2em;
 }
 
 .imprint-link-warpper{
@@ -130,4 +145,24 @@ p{
 .formular-wrapper{
     width: 50%;
     margin: auto;
+}
+
+.container{
+    position: relative;
+    min-height: 100%;
+    width: 100%;
+    margin: 0 auto;
+
+    padding-bottom: 10em;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 100%;
+
+    padding-bottom: 2em;
 }

@@ -4,12 +4,15 @@ body{
     margin: 0px;
     font-family: 'Lato', sans-serif;
     text-align: center;
-
     height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 html{
     height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 p{
@@ -89,7 +92,7 @@ p{
     height: 2em;
 }
 
-.imprint-link-wrapper{
+.imprint-link-warpper{
     height: 22px;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
@@ -148,15 +151,15 @@ p{
     position: relative;
     min-height: 100%;
     width: 100%;
-    /*margin: 0 auto;*/
+    margin: 0 auto;
 }
 
 .content{
     padding-bottom: 2em;
-    
-    /*display: flex;
+    margin: 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;*/
+    height: 100%;
 }

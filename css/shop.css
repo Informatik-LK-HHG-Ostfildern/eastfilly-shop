@@ -1,6 +1,7 @@
 .products{ /*Container of all Products*/
     display: flex;
-    /*align-items: center;*/
+    align-items: center;
+    vertical-align: middle;
     justify-content: center;
     
     height: 100%;
@@ -27,10 +28,10 @@ a{ /*Especially for the links to the product itself*/
     border-radius: 5px;
 }
 
-/*.product-container{ 
+.product-container{ 
     height: auto;
     width: 550px;
-}*/
+}
 
 #product-link {
     color: #1b8700;

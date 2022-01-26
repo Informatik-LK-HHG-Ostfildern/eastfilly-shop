@@ -1,0 +1,12 @@
+.navbar-brand{
+    display:flex;
+    align-items:center;
+}
+
+#marginleft{
+    margin-left: 10px;
+}
+
+.display-6{
+    font-size: smaller;
+}
